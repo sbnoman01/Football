@@ -32,8 +32,8 @@
         flex-direction: column;
     }
     h1 {
-        font-size: 50px;
-        line-height: 64px;
+        font-size: 44px;
+        font-weight: 500;
     }
     .hero-heading {
         justify-content: start;
