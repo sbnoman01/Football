@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: Poppins;
 }
@@ -38,12 +41,16 @@ h1{
 .pb-50{
     padding-bottom: 50px;
 }
+.pt-100{
+    padding-top: 100px;
+}
 .btn {
 	padding: 10px 20px;
 	background: var(--button-color);
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block;
 }
 .white{
     color: #fff;
@@ -78,11 +85,7 @@ h1{
     color: #fff;
 }
 
-.login {
-	text-align: end;
-	display: flex;
-	flex-direction: row;
-}
+
 
 /* mobile menu */
 .mobile-menu{
@@ -143,15 +146,68 @@ h1{
 	display: block;
 	text-align: center;
 }
+.banner-image {
+	width: 100%;
+}
+.banner-image img{
+    border-radius: 5px;
+}
+.banner-text h1 {
+	font-size: 58px;
+	line-height: 85px;
+}
+
+.banner-text p {
+	font-size: 18px;
+	color: #6C6C6C;
+	line-height: 24px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.banner-text {
+	display: flex;
+	align-items: center;
+}
+
+.banner-image{
+    margin: 30px 0;
+}
+
+/* footer */
+.logo{
+    text-align: center;
+}
+.logo img {
+	width: 30%;
+}
+.social-links ul {
+	display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.social-links ul li{
+	list-style: none;
+}
+.social-links ul li a {
+	width: 50px;
+	height: 50px;
+	background-color: #e7e7e8;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #969bab;
+	text-decoration: none;
+	border-radius: 41px;
+	font-size: 20px;
+	margin: 5px;
+}
 
 
-
-
-
-
-
-
-
-
-
+/* jersey section */
+#bg-jersey{
+    background-image: url();
+}
 
