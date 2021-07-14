@@ -14,6 +14,7 @@ body{
 h1{
     font-size: 75px;
     line-height: 100px;
+    color: #0A0826;
 }
 /* comon class */
 .img-full{
@@ -53,7 +54,7 @@ h1{
     display: inline-block;
 }
 .white{
-    color: #fff;
+    color: #fff !important;
 }
 .img-half {
 	width: 80%;
@@ -206,6 +207,26 @@ h1{
 }
 
 
+/* gallery */
+.gallery-wrap{
+    margin: 80px 0;
+}
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+}
+.g-item{
+    width: 100%;
+    transition: .3s all ease;
+}
+.g-item:hover{
+    transform: scale(1.1);
+}
+.heading-gallery h1 {
+	font-size: 50px;
+	text-align: center;
+}
 /* jersey section */
 #bg-jersey {
 	background: linear-gradient(rgba(208, 208, 208, 0.3), rgb(45, 37, 160)), url(images/jersey-bg.webp);
@@ -224,6 +245,5 @@ h1{
 .jersey-wrap p {
 	font-size: 20px;
 	color: #f2f2f2;
-	margin-top: ;
 	margin-bottom: 12px;
 }
