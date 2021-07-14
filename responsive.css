@@ -27,4 +27,14 @@
     .hero-image img{
         padding-top: 50px;
     }
+
+    /* grid */
+    .grid-wrap {
+
+        grid-template-columns: 1fr;
+
+    }
+    .load-more{
+        display: block;
+    }
 }
