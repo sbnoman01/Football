@@ -1,0 +1,30 @@
+/* for mobile width 768px */
+@media (max-width:768px){
+    .container{
+        padding: 0 40px;
+    }
+    .menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    /* hero section */
+    .half-width {
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .hero-heading {
+        justify-content: start;
+    }
+    .hero-image img{
+        padding-top: 50px;
+    }
+}
