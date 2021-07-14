@@ -247,3 +247,30 @@ h1{
 	color: #f2f2f2;
 	margin-bottom: 12px;
 }
+
+@keyframes football_an{
+    from{
+        transform: rotate3d(0deg);
+    }
+    to{
+        transform: rotate3d(10deg);
+    }
+}
+@keyframes football_an {
+    0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(10deg);
+      }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .hero-image img {
+	animation: football_an 5s infinite;
+    transition: 3s all ease;
+}
+.hero-image img:hover{
+    transform: scale(1.1);
+}
