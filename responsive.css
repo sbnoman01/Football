@@ -15,7 +15,7 @@
 /* for mobile width 768px */
 @media (max-width:768px){
     .container{
-        padding: 0 40px;
+        padding: 0 25px;
     }
     .menu {
         display: none;
