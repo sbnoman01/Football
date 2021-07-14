@@ -89,4 +89,10 @@
         font-size: 42px;
         padding-bottom: 26px;
     }
+    .banner-text h1 {
+        font-size: 26px;
+        line-height: 41px;
+        margin: 70px 0;
+        margin-bottom: 14px;
+    }
 }
